@@ -1,0 +1,12 @@
+{
+  "generator-starknet": {
+    "promptValues": {
+      "projectName": "Piyolu",
+      "outputDir": "contracts",
+      "framework": "Hardhat",
+      "wantERC20": false,
+      "wantERC721": true,
+      "customizeERC721": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "starknet-react-next",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
+  },
+  "dependencies": {
+    "@starknet-react/core": "^0.11.0",
+    "get-starknet": "^1.4.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "sass": "^1.52.3",
+    "scss": "^0.2.4",
+    "starknet": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.39",
+    "@types/react": "18.0.11",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.7.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "next/core-web-vitals"
+    ]
+  }
+}

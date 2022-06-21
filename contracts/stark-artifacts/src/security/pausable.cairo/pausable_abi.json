@@ -1,0 +1,24 @@
+[
+    {
+        "data": [
+            {
+                "name": "account",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "Paused",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "account",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "Unpaused",
+        "type": "event"
+    }
+]
