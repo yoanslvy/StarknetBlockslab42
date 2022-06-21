@@ -1,7 +1,7 @@
 import { useContract } from "@starknet-react/core";
 import { Abi } from "starknet";
 
-import NFTAbi from "~/abi/ERC721.json";
+import NFTAbi from "../abi/erc721.json";
 
 export function useNFTContract() {
   return useContract({
