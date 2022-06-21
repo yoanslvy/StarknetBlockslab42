@@ -124,11 +124,25 @@ const NFTPage: NextPage = () => {
                 alt="logoStarknet"
                 style={{ marginRight: "16px" }}
               />
-              <img src="../assets/logoBlockslab.png" width={60} alt="logo" />
+              <a
+                href="https://www.blockslab42.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="../assets/logoBlockslab.png" width={60} alt="logo" />
+              </a>
             </div>
 
             <UserBalance />
             <MintNFT />
+            <a
+              href="https://www.blockslab42.io/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textAlign: "center" }}
+            >
+              <p className={styles.link}>https://www.blockslab42.io/</p>
+            </a>
             <TransactionList />
           </div>
         </>

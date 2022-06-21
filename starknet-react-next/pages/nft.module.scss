@@ -36,6 +36,17 @@
     border-radius: 20px;
     padding: 20px;
 
+    .link {
+      color: #ff4df2;
+
+      &:hover {
+        color: white;
+      }
+      &:active {
+        color: white;
+      }
+    }
+
     .button {
       border: none;
       width: 50%;
