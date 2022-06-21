@@ -22,6 +22,17 @@
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     border-radius: 20px;
     padding: 20px;
+
+    .link {
+      color: #ff4df2;
+
+      &:hover {
+        color: white;
+      }
+      &:active {
+        color: white;
+      }
+    }
   }
 
   .center {
