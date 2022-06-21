@@ -103,7 +103,14 @@ const NFTPage: NextPage = () => {
         <div className={styles.connect}>
           <p style={{ color: "white" }}>Connect Wallet</p>
           <ConnectWallet />
-          <p className={styles.link}>https://www.blockslab42.io/</p>
+          <a
+            href="https://www.blockslab42.io/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textAlign: "center" }}
+          >
+            <p className={styles.link}>https://www.blockslab42.io/</p>
+          </a>
         </div>
       ) : (
         <>
